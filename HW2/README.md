@@ -19,14 +19,14 @@ Disease:
 
 1. If age > 60 AND Male
 2. If 50 < age < 60
-* If Family heart disease history
-* If Smoking
-* If Weight > 100
-* If Activity level = 0
+	*If Family heart disease history
+	* If Smoking
+	* If Weight > 100
+	* If Activity level = 0
 3. If 40 < age < 50
-* If Activity level = 0 AND Weight > 100
-* If Smoking AND Activity level = 0
-* If Smoking AND Weight > 100
+	* If Activity level = 0 AND Weight > 100
+	* If Smoking AND Activity level = 0
+	* If Smoking AND Weight > 100
 4. If Family heart disease history AND Male
 
 Healthy:
