@@ -39,3 +39,4 @@ Healthy:
 ## Comparison of two trees
 
 My markup tree that I created by hand using the rules I created:
+![](https://github.com/nikitagalayda/FDA-Homework/blob/master/HW2/h_tree.png)
