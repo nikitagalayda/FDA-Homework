@@ -58,6 +58,13 @@ Neural Networks need large amounts of training data. Although we have 2000+ data
 With different data, the accuracy of some models may change. For example, if another data has more outliers, LR and NN would be more affected than SVM, and their accuracies would be lower because the outliers would make training more inaccurate.
 In general, I believe SVM would still come out ahead or at least on par with the other models, even if data is changed.
 
+I used these 3 classifiers on the Titanic dataset, and got similar results. The test accuracy of the classifiers was the following:
+1. Logistic Regression: 79.72%
+2. SVM: 77.66%
+3. Neural Network: 63.57%
+
+These results are quite similar to the ones gotten from the stock market data. The change here is that the LR model outperformed SVM. Neural Network performed the worst, which I would attribute to the lack of data points (only around 400 entries), and features, just like in the stock dataset. 
+
 ### How did you improve your classifiers ?
 
 #### Logistic Regression
@@ -87,3 +94,6 @@ In general, I believe SVM would still come out ahead or at least on par with the
 2. Class weight
     Since our training dataset is imbalanced (1028 decreases and 1236 increases) to balance the weights of the data, class weight is introduced.
     
+
+### Final Thoughts
+Predicting stock market closing prices is difficult, due to the volatile nature of the stock market. Closing prices don't directly relate to previous days' opening/closing prices, and hence it is difficult for the models to find the relationships. SVM proved to perform the best out of 3 models on this dataset, which I would attribute to its inherent function as a classification model, as well as being able to tune penalty to create an accurate hyperplane. 
