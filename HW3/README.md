@@ -19,7 +19,7 @@ A classifier used for classification and regression. Transforms data and finds o
 
 #### Neural Network
 
-
+A network consisting of layers, which are connected through inputs and outputs. The inputs have weights, which partially determine the output of the layer(s).
 
 
 ### How did you preprocess this dataset?
