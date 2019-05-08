@@ -20,8 +20,8 @@ I used Logistic Regression to tackle the problem. I used LR because it is a good
 
 #### Initial Results
 My initial prediction results results were as follows:
-Train accuracy: 0.6007987048030221
-Test accuracy: 0.5956868078492326
+* Train accuracy: 0.6007987048030221
+* Test accuracy: 0.5956868078492326
 
 #### Reasons
 These results are actually not too terrible, considering how volatile the results of Dota games are. 
@@ -51,8 +51,8 @@ I also found the optimal value of the LR parameter C to be 0.7, using GridSearch
 
 #### Improvement
 After finding the optimal parameters, the prediction results were:
-Train accuracy: 0.6010577441985969
-Test accuracy: 0.5982125510005829
+* Train accuracy: 0.6010577441985969
+* Test accuracy: 0.5982125510005829
 
 Evidently, the improvement to the accuracy of the prediciton is minimal, although present. This is to be expected, since as I mentioned earlier, predicting Dota 2 games is extremely difficult due to the flexibility, and volatility of the game.
 
