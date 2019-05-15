@@ -8,6 +8,13 @@ The dataset chosen was the "Dota2 Games Results". I am quite familiar with the g
 4. Game type (eg. Ranked)
 5 - end: Each element is an indicator for a hero. Value of 1 indicates that a player from team '1' played as that hero and '-1' for the other team. Hero can be selected by only one player each game. This means that each row has five '1' and five '-1' values.
 
+### Data analysis
+I remapped some of the column values to more convenient ones, such as 0 and 1. I also changed some column names to better represent the values contained in them.
+
+One of the imortant statistics in Dota 2 is the hero pick rate, which represents the probability of a hero being picked by either team (how often the hero is picked). I calculate this value in order to discover which heroes are popular in this dataset. 
+
+Another important statistic is which side (Dire or Radiant, in this case 0 or 1) has a higher win rate overall. This is calculated by simply dividing the number of victories of each side by total number of games. This can provide insight into inequality of the Dota 2 map, and whether any particular side has an advantage. For example, if one side has a much higher win rate, then any team has a higher chance to win using that win rate.
+
 ### Problem
 The problem defined for this dataset is predicting the results of a given Dota 2 game (1 for win and 0 for loss). 
 
